@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+include /usr/share/dpkg/default.mk
+
+%:
+	dh $@
+
+override_dh_compress:
+	dh_compress -Xusr/share/doc/publicsuffix/examples/test_psl.txt
+
+override_dh_installchangelogs:
+	dh_installchangelogs debian/upstream-changes.txt
+
+override_dh_auto_build:
+	dh_auto_build
+	TZ=UTC touch -t $(subst .,,$(DEB_VERSION_UPSTREAM)) public_suffix_list.dat
+	psl-make-dafsa --input-format=psl --output-format=binary public_suffix_list.dat public_suffix_list.dafsa
+	TZ=UTC touch -t $(subst .,,$(DEB_VERSION_UPSTREAM)).59 public_suffix_list.dafsa

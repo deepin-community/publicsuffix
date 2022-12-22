@@ -1,0 +1,32 @@
+From: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Date: Thu, 12 May 2016 11:36:54 -0400
+Subject: avoid testing the rules during package build
+
+Upstream auto-fetches code from the network and builds it for testing
+the rules.  But these same verifications are handled by the libpsl
+package in debian, so we don't need them here (and we should avoid
+using the network during package build).
+---
+ Makefile | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index d5e1ae8..615dc71 100644
+--- a/Makefile
++++ b/Makefile
+@@ -3,7 +3,7 @@ Options	= --with-psl-file=$(Dir)/public_suffix_list.dat --with-psl-testfile=$(Di
+ 
+ all: test
+ 
+-test: test-syntax test-rules
++test: test-syntax
+ 
+ test-rules: libpsl-libicu
+ 
+@@ -32,4 +32,4 @@ libpsl-libidn2: libpsl-config
+ 
+ # TEST PSL data with libidn (IDNA2003)
+ libpsl-libidn: libpsl-config
+-	cd libpsl && ./configure -q -C --enable-runtime=libidn --enable-builtin=libidn $(Options) && make -s clean && make -s check -j4
+\ No newline at end of file
++	cd libpsl && ./configure -q -C --enable-runtime=libidn --enable-builtin=libidn $(Options) && make -s clean && make -s check -j4

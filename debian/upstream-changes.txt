@@ -1,0 +1,300 @@
+commit c492e2d388e7b87087f0aec3ef64a20bd24ac65f
+Author: FlashDrive.io <73052948+flashdriveio@users.noreply.github.com>
+Date:   Tue Nov 9 12:35:31 2021 -0500
+
+    Added FlashDrive.io domain names (#1401)
+    
+    * Added FlashDrive.io domain names
+    
+    * Update public_suffix_list.dat
+    
+    sorting issue fixed
+
+commit e97f489125025a32ad1a7b8a01d1474cab3f9a48
+Author: Lei Wang <wonlay@gmail.com>
+Date:   Sat Nov 6 21:27:04 2021 -0700
+
+    Remove: gb.com (#1467)
+
+commit 22a461ea3f7b5563f6cef218f9ec9cd19c616d33
+Author: TLD Update Robot <47792085+tld-update-bot@users.noreply.github.com>
+Date:   Thu Oct 28 15:51:22 2021 -0400
+
+    util: gTLD data autopull updates for 2021-10-28T15:13:34 UTC (#1464)
+    
+    Co-authored-by: GitHub <noreply@github.com>
+
+commit 3d5e354422b9edc69f132b048a587c8bd45018df
+Author: jcolon-ellucian <87881742+jcolon-ellucian@users.noreply.github.com>
+Date:   Tue Oct 26 11:46:54 2021 -0400
+
+    Remove elluciancrm domains (#1443)
+    
+    * Remove Ellucian domains
+
+commit ff4958dd9cb7197d435ceadd053f9dc8da7852dc
+Author: Ryan Sleevi <ryan.sleevi@gmail.com>
+Date:   Sat Oct 16 12:32:08 2021 -0400
+
+    Fix sorting of One.com domains
+
+commit cfafdebb5c4d216b2d1415bb4a372ab6455f19b2
+Author: Alexander <selivandex@gmail.com>
+Date:   Sat Oct 16 19:27:20 2021 +0300
+
+    Add siiites.com (#1416)
+
+commit 95e0b14101dc0f7477c28e9d2aecc959f22473ce
+Author: Dave Anderson <dave@natulte.net>
+Date:   Sat Oct 16 09:11:24 2021 -0700
+
+    Add ts.net and beta.tailscale.net domains. (#1453)
+
+commit 20a9b4e9e3232991ba72ae42bc94f1b3ffdb75b5
+Author: Jothan Frakes <jothan@gmail.com>
+Date:   Thu Oct 14 09:31:22 2021 -0700
+
+    Revise Sorting for Cape Verde (.cv)
+    
+    This fixes sorting of #1456
+
+commit 921d91f13fd582a7e830c7386f7a58608e34f02b
+Author: EduardoATpt <66691939+EduardoATpt@users.noreply.github.com>
+Date:   Thu Oct 14 17:29:08 2021 +0100
+
+    Update public_suffix_list.dat (#1456)
+    
+    Minor updates on  the references websites for .PT and .GW.
+    Update .CV SLD.
+
+commit 0df64ae56a60dca05a1b088af4922eea76e30b5b
+Author: Shahar Talmi <shahar@wix.com>
+Date:   Tue Oct 12 14:25:54 2021 +0300
+
+    updated email address (#1450)
+
+commit ff713fe9b67c46a36ca51f108415abfa5ef64596
+Author: TLD Update Robot <47792085+tld-update-bot@users.noreply.github.com>
+Date:   Fri Oct 8 11:25:53 2021 -0400
+
+    util: gTLD data autopull updates for 2021-10-08T15:12:46 UTC (#1451)
+    
+    Co-authored-by: GitHub <noreply@github.com>
+
+commit 5f5682bcfdc0cac36cf7cd61bd2fe7e8d0f8381f
+Author: steven jacobs <stjacobs@fastmail.fm>
+Date:   Fri Oct 8 03:35:32 2021 -0400
+
+    add ip.linodeusercontent.com (#1448)
+    
+    Well formatted; thorough, and thoughtful.  Appreciate the attention to detail and pledge to clean up / tighten on the filesize modesty for your entries.  Expediting
+
+commit c9ae7763de9e57a4262ab818a4511d8c5e0d7257
+Author: Lenny <lennybakkalian@users.noreply.github.com>
+Date:   Fri Oct 8 09:34:21 2021 +0200
+
+    Adding upli.io (#1446)
+    
+    * Adding upli.io
+    
+    * reorder Upli entry
+
+commit e43dd3696d975df071e42de9d8de364c27f9ac6b
+Author: Franky <ChristianFranke@users.noreply.github.com>
+Date:   Fri Oct 8 09:02:28 2021 +0200
+
+    added tickets.io (#1429)
+
+commit 29956a79b22e6e48d74d71e1cebba8601c56ec5b
+Author: TLD Update Robot <47792085+tld-update-bot@users.noreply.github.com>
+Date:   Thu Oct 7 15:49:05 2021 -0400
+
+    util: gTLD data autopull updates for 2021-10-07T15:11:34 UTC (#1449)
+    
+    Co-authored-by: GitHub <noreply@github.com>
+
+commit 2ec5699c6d3a2fc97d7cbdeab6eb034a539ce722
+Author: TLD Update Robot <47792085+tld-update-bot@users.noreply.github.com>
+Date:   Wed Oct 6 11:27:26 2021 -0400
+
+    util: gTLD data autopull updates for 2021-10-06T15:12:57 UTC (#1447)
+    
+    Co-authored-by: GitHub <noreply@github.com>
+
+commit a5b046d98c074927440b3f3abd4f8f1a5ab633d1
+Author: Jothan Frakes <jothan@gmail.com>
+Date:   Wed Oct 6 00:08:21 2021 -0700
+
+    Update Pull Request Template to add clarity
+    
+    Increased comment notes to help submitting parties understand what minimum rationale and org descriptions should be
+
+commit 21ed03577eb3cf138d67fe6131a5adc6b43298e3
+Author: TLD Update Robot <47792085+tld-update-bot@users.noreply.github.com>
+Date:   Fri Oct 1 11:30:09 2021 -0400
+
+    util: gTLD data autopull updates for 2021-10-01T15:13:10 UTC (#1445)
+    
+    Co-authored-by: GitHub <noreply@github.com>
+
+commit 8f416f4dac0411677c49242048ac8fe8914d8d18
+Author: Mathilde <mathilde@clic2000.fr>
+Date:   Wed Sep 29 06:18:17 2021 +0200
+
+    Remove Clic2000 entries (#1434)
+
+commit 53dcf41d5d8e724f66c78ff727ccb2cdc4e16186
+Author: Robin H. Johnson <rjohnson@digitalocean.com>
+Date:   Tue Sep 28 21:16:43 2021 -0700
+
+    ondigitalocean.app: update comment for DigitalOcean App Platform (#1431)
+    
+    - Update title to reflect product name
+    - Update email to dedicated mailing list for PSL usage
+    
+    Signed-off-by: Robin H. Johnson <rjohnson@digitalocean.com>
+
+commit 76cb4b3630c55b161c119b2201c2d23f5f56f623
+Author: Deepak Tiwari <42840642+DeepakTiwari84@users.noreply.github.com>
+Date:   Wed Sep 29 09:43:35 2021 +0530
+
+    add prequalifyme.today to private section (#1311)
+    
+    * Update public_suffix_list.dat
+    
+    added equalifyme.today
+    
+    * Added prequalifyme.today
+    
+    updated domain name
+    
+    * add prequalifyme.today to PSL
+    
+    Changed the domain position according to alphabetical order
+    
+    * add prequalifyme.today
+    
+    updated private domain list to add prequalifyme.today in alphabetical order
+    
+    * Corrected alphabetic order for prequalifyme.today
+    
+    Corrected alphabetic order for prequalifyme.today in the private section of PSL.
+    
+    * removed domain
+    
+    * Corrected domain prequalifyme.today in alphabetical order.
+    
+    * removed extra blank lines
+    
+    * removed extra blank lines
+    
+    * removed extra blank lines
+    
+    * added newline at the end of file
+    
+    * removed domain
+    
+    * added prequalifyme.today domain
+
+commit d733c0416f88720fc85effcc8b17a3361df23873
+Author: TLD Update Robot <47792085+tld-update-bot@users.noreply.github.com>
+Date:   Tue Sep 28 13:14:17 2021 -0400
+
+    util: gTLD data autopull updates for 2021-09-28T15:12:52 UTC (#1438)
+    
+    Co-authored-by: GitHub <noreply@github.com>
+
+commit 95209c60461937df9618dd1874d6e99483b322af
+Author: terjanq <terjanq@users.noreply.github.com>
+Date:   Tue Sep 28 17:10:25 2021 +0200
+
+    Add *.usercontent.goog (#1417)
+    
+    Add *.usercontent.goog to the Google domains
+
+commit e3fc753321261953b3ab9fe335ddfe649f7ebdf9
+Author: Robin H. Johnson <robbat2@orbis-terrarum.net>
+Date:   Wed Sep 22 01:23:47 2021 -0700
+
+    Add digitaloceanspaces.com & regional subdomains (#1421)
+    
+    * Add digitaloceanspaces.com & regional subdomains
+    
+    Add all regions of DigitalOcean Spaces to the PSL, to deliniate the
+    names which can be registered by users. This mirrors the inclusion of
+    Amazon S3.
+    
+    Please note the contact email address goes to a superset of the domain
+    registration group, suitable for reaching all critical points of contact
+    regarding DigitalOcean's PSL entries.
+    
+    Signed-off-by: Robin H. Johnson <rjohnson@digitalocean.com>
+    
+    * digitaloceanspaces.com: collapse to single wildcard only
+    
+    Per discussions [1] w/ maintainer and the PSL problems document [2].
+    
+    [1] https://github.com/publicsuffix/list/pull/1421#issuecomment-920545418
+    [2] https://github.com/sleevi/psl-problems
+    
+    Signed-off-by: Robin H. Johnson <rjohnson@digitalocean.com>
+
+commit 1bdac331266722289f27d3509a31aec4a102b73f
+Author: smoussa2021 <90328956+smoussa2021@users.noreply.github.com>
+Date:   Tue Sep 21 16:59:01 2021 +0100
+
+    Update public_suffix_list.dat (#1426)
+    
+    Listed sub-extensions are passed to domains under .TN.
+    DEFENSE.TN, RNU.TN , RNRT.TN, TUREN.TN, RNS.TN, EDUNET.TN and AGRINET.TN
+    
+    They are no longer sub-extensions under which registrants can register domains.
+    
+    Decision of the national telecommunication regulator, INTT:
+    http://www.intt.tn/upload/txts/fr/decision_du_college_de_l'int_n11-2020_du_23_dec_2020.pdf
+
+commit 428efccbe95f13dc6d6399bef8aa274bdb588e86
+Author: Leandro Britez <britinx@hotmail.com>
+Date:   Thu Sep 9 18:01:14 2021 -0300
+
+    Adding new .ar SLDs and official nic.ar URL correction (#1414)
+
+commit 20748142a551d2c6d6b95a47c0216608080e6e71
+Author: Andrew Farries <andrew-farries@users.noreply.github.com>
+Date:   Thu Sep 9 02:22:19 2021 +0100
+
+    Add instances.spawn.cc (#1411)
+
+commit 2533d032871e1ef1f410fc0754b848d4587c8021
+Author: Tocknicsu <Tocknicsu@users.noreply.github.com>
+Date:   Fri Sep 3 15:46:30 2021 +0800
+
+    Remove: nctu.me (#1407)
+    
+    @Tocknicsu  Thank you for cleaning up after yourself - the world needs more people like you.  Well, the PSL definitely does.
+
+commit 6327e96f219f05abc3c1d5a039c47e73a79db854
+Author: Jothan Frakes <jothan@gmail.com>
+Date:   Thu Sep 2 15:11:39 2021 -0700
+
+    Roll back diher.solutions PR #1393 (#1406)
+    
+    * Roll back diher.solutions PR #1393
+    
+    foo.bar and *.foo.bar can't both be added, and I let #1393 through, where the linter typically catches and fails them.
+    @pereceh you must re-sumbit and choose only one of each, please reference #1393 in the new PR
+    
+    // Diher Solutions : https://diher.solutions
+    // Submitted by Didi Hermawan <mail@diher.solutions>
+    rss.my.id
+    *.rss.my.id
+    diher.solutions
+    *.diher.solutions
+    
+    * Pull out rss.id.my and diher.solutions
+
+commit 15ae051dd5e7cd1b5c148639001597b95c029d33
+Author: Noah Taheij <noah@taheij.nl>
+Date:   Thu Sep 2 11:41:07 2021 +0200
+
+    Update public_suffix_list.dat (#1390)

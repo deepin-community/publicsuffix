@@ -1,0 +1,2 @@
+version=4
+opts=mode=git,pretty=%cd,date=%Y%m%d.%H%M https://github.com/publicsuffix/list HEAD

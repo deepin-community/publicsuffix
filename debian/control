@@ -1,0 +1,27 @@
+Source: publicsuffix
+Section: net
+Priority: optional
+Maintainer: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Build-Depends:
+ debhelper-compat (= 13),
+ psl-make-dafsa,
+ python3-minimal,
+Standards-Version: 4.5.0
+Homepage: https://publicsuffix.org
+Vcs-Browser: https://salsa.debian.org/debian/publicsuffix
+Vcs-Git: https://salsa.debian.org/debian/publicsuffix.git
+Rules-Requires-Root: no
+
+Package: publicsuffix
+Provides:
+ publicsuffix-dafsa,
+Architecture: all
+Depends:
+ ${misc:Depends},
+Multi-Arch: foreign
+Description: accurate, machine-readable list of domain name suffixes
+ A machine-readable list of domain name suffixes that accept public
+ registration.  Each suffix represents the part of a domain name which
+ is not under the control of the individual registrant, which makes
+ the list useful for grouping cookies, deciding same-origin policies,
+ collating spam, and other activities.

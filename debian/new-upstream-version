@@ -1,0 +1,22 @@
+#!/bin/bash
+
+set -ex
+
+git remote update upstream
+git diff upstream..upstream/master
+read -p "changes ok to continue? [y/N] " REPLY
+[ "${REPLY,,}" = "y" ]
+date=$(date -u -d $(git log -1 --date=short --pretty=format:%cI upstream/master) +%Y%m%d.%H%M)
+git branch -D upstream
+git branch upstream upstream/master
+git tag "publicsuffix/${date}" upstream/master
+git merge -m "merge upstream changes to ${date}" "publicsuffix/${date}"
+git log -n30 upstream/master > debian/upstream-changes.txt
+git add debian/upstream-changes.txt
+dch --distribution unstable -v "${date}-1" 'new upstream version'
+git add debian/changelog
+git commit -m "new upstream version ${date}"
+gbp buildpackage --git-tag --changes-option=-S
+debian/rules clean
+dupload "../publicsuffix_${date}-1_$(dpkg-architecture -q DEB_HOST_ARCH).changes"
+git push salsa --follow-tags debian/master --follow-tags upstream
