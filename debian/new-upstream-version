@@ -19,4 +19,4 @@ git commit -m "new upstream version ${date}"
 gbp buildpackage --git-tag --changes-option=-S
 debian/rules clean
 dupload "../publicsuffix_${date}-1_$(dpkg-architecture -q DEB_HOST_ARCH).changes"
-git push salsa --follow-tags debian/master --follow-tags upstream
+git push salsa --follow-tags debian/sid --follow-tags upstream

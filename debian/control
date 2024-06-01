@@ -6,7 +6,7 @@ Build-Depends:
  debhelper-compat (= 13),
  psl-make-dafsa,
  python3-minimal,
-Standards-Version: 4.5.0
+Standards-Version: 4.6.2
 Homepage: https://publicsuffix.org
 Vcs-Browser: https://salsa.debian.org/debian/publicsuffix
 Vcs-Git: https://salsa.debian.org/debian/publicsuffix.git
