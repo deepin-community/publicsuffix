@@ -1,3 +1,46 @@
+publicsuffix (20231001.0357-0.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+
+  [ Daniel Kahn Gillmor ]
+  * update standards-version to 4.6.2 (no changes needed)
+  * d/copyright: update upstream year
+
+  [ Anthony Fok ]
+  * new upstream version
+
+ -- Anthony Fok <foka@debian.org>  Thu, 12 Oct 2023 11:56:59 -0600
+
+publicsuffix (20230209.2326-1) unstable; urgency=medium
+
+  * new upstream version
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Mon, 13 Feb 2023 14:28:00 -0500
+
+publicsuffix (20221208.1942-1) unstable; urgency=medium
+
+  * new upstream version
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Wed, 11 Jan 2023 10:35:51 -0500
+
+publicsuffix (20220811.1734-1) unstable; urgency=medium
+
+  * new upstream version
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 23 Aug 2022 12:02:09 -0400
+
+publicsuffix (20220614.1839-1) unstable; urgency=medium
+
+  * new upstream version
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Mon, 27 Jun 2022 15:37:07 -0400
+
+publicsuffix (20211207.1025-1) unstable; urgency=medium
+
+  * new upstream version
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 07 Dec 2021 18:20:16 +0200
+
 publicsuffix (20211109.1735-1) unstable; urgency=medium
 
   * new upstream version

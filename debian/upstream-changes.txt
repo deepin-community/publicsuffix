@@ -1,300 +1,310 @@
-commit c492e2d388e7b87087f0aec3ef64a20bd24ac65f
-Author: FlashDrive.io <73052948+flashdriveio@users.noreply.github.com>
-Date:   Tue Nov 9 12:35:31 2021 -0500
+commit 15d84102d12cce502fd169e5ded4d093f96716e8
+Author: dmitry kohmanyuk <dk@cctld.ua>
+Date:   Sun Oct 1 05:57:47 2023 +0200
 
-    Added FlashDrive.io domain names (#1401)
+    Update public_suffix_list.dat (#1863)
     
-    * Added FlashDrive.io domain names
+    adding reserved domains for UA: I think I covered everything.
+    source:
+    https://www.hostmaster.ua/2ld/
+
+commit c531440305620f84dda8461c9852605aca528a3b
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sat Sep 30 20:47:20 2023 -0700
+
+    util: gTLD data autopull updates for 2023-09-30T15:11:25 UTC (#1864)
+    
+    Co-authored-by: GitHub <noreply@github.com>
+
+commit 4f5cba7853d1067a858ef27eb3368c00e4148480
+Author: Jérôme Lipowicz <jerome@yayel.com>
+Date:   Mon Sep 25 21:41:54 2023 +0200
+
+    Update .fr list, move some subspaces to PRIVATE section listing of smallregistry.net (#1823)
+    
+    * Update .fr list, move some subspaces to PRIVATE section listing of smallregistry.net
+    
+    - new .fr sTLDs description (most of French sTLDs are managed by smallregistry.net since 2009)
+    - Removing geometre-expert.fr as requested by the French Board of Surveyors.
+    - Smallregistry SLDs moved to private section
+    
+    * Removed unwanted extra lines
+
+commit 1a4824549b093abc3077205ae5386ed57f73806d
+Author: jmccullin <145032531+jmccullin@users.noreply.github.com>
+Date:   Mon Sep 18 14:33:03 2023 -0400
+
+    Remove k12.de.us (#1854)
+
+commit ac3ef099c413df1cd74aa81fbca4c4fda7a8be95
+Author: Or Leib <orleib@wix.com>
+Date:   Mon Sep 18 06:55:59 2023 +0300
+
+    Add `wix.run` (#1691)
+    
+    * Added `wix.run`
+    
+    * added `wixstudio.io`
+    
+    * fixed sorting
+    
+    @shahata @OrLeib MERGED
+
+commit e3a01767f77d619440fd47b1bb8da978afee53ef
+Author: Joyce <joycebrum@google.com>
+Date:   Wed Sep 13 05:26:36 2023 -0300
+
+    Set up permissions to github workflow to least privileges (#1718)
+    
+    Closes #1717
+    
+    As explained at #1717, github workflow standard behavior grant write-all permissions by default, which can be exploited by an attacker in case of a compromised workflow. To protect the project against this kinds of attacks, it is a Github and OpenSSF Scorecard recommendation to always use the least privilege definition on the workflows.
+
+commit d0e0d5e1a3badb05ebcbc001ddf0c8b68c0802b9
+Author: Jothan Frakes <jothan@gmail.com>
+Date:   Mon Sep 4 18:48:59 2023 -0700
+
+    Update README.md
+    
+    Added a note to indicate that we are not sending out emails about folks' _PSL TXT records, as someone is doing that but it ain't us
+
+commit 1b3876c5f9fede21447d9725d8671cbfd3abfb7f
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sat Aug 26 17:47:01 2023 -0700
+
+    util: gTLD data autopull updates for 2023-08-26T15:11:07 UTC (#1835)
+    
+    Co-authored-by: GitHub <noreply@github.com>
+
+commit b9217892d7bf7300c34e4adfacefabb5275dcc7c
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Wed Aug 23 08:15:39 2023 -0700
+
+    util: gTLD data autopull updates for 2023-08-23T15:12:41 UTC (#1832)
+    
+    Co-authored-by: GitHub <noreply@github.com>
+
+commit 01c4b0709b0e152af544581f9532b3f499b10a56
+Author: Jothan Frakes <jothan@gmail.com>
+Date:   Tue Aug 22 12:39:02 2023 -0700
+
+    Update tld-update.yml (#1827)
+    
+    Strip out the project/card definition stuff - appears to use a different context of "project" than intended
+
+commit 5e6ac3a082505ac4cf08858bdb38382d9a912833
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sat Aug 12 17:40:25 2023 -0700
+
+    util: gTLD data autopull updates for 2023-08-12T15:10:57 UTC (#1829)
+    
+    Co-authored-by: GitHub <noreply@github.com>
+
+commit e44179c8f1dc8029306cda286011e7786c0fccda
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Wed Aug 9 09:51:11 2023 -0700
+
+    util: gTLD data autopull updates for 2023-08-09T15:14:39 UTC (#1828)
+    
+    Co-authored-by: GitHub <noreply@github.com>
+
+commit c0a861ff4651985fa49e952a2f5a0a6a619e44e6
+Author: Daniel McCarney <daniel@binaryparadox.net>
+Date:   Tue Aug 8 20:53:27 2023 -0400
+
+    tools: include IANA TLD URL in new gtld updates. (#1817)
+    
+    This commit updates the `tools/newgtlds.go` tooling to include a comment
+    line with the gTLD's IANA registry URL for each gTLD.
+    
+    E.g. for the tld `aaa`, includes a comment line:
+    `// https://www.iana.org/domains/root/db/aaa.html`
+
+commit ae888fa5dc5200cb66b3bed17c6f1d1adf7fbc45
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sat Aug 5 10:39:09 2023 -0700
+
+    util: gTLD data autopull updates for 2023-08-05T15:11:19 UTC (#1822)
+    
+    Co-authored-by: GitHub <noreply@github.com>
+
+commit 250b1ed272a80f4cac3e2c9e9bf1f5da6f151451
+Author: Jothan Frakes <jothan@gmail.com>
+Date:   Fri Aug 4 08:33:19 2023 -0700
+
+    Update tld-update.yml to automatically add labels when autopull catches deltas and generates PR (#1815)
+    
+    * Update tld-update.yml
+    
+    Auto-adds labels to indicate this is automation and impacts the upper 'ICANN' section
+    
+    * Label autopull and Add it to "List Add/Mod/Del" in "To-Do" state
+    
+    Added the project/card assignment ( hat tip: @cpu )
+    
+    * Updating tld-update.yml - adds label and makes 'card' w project/state
+    
+    Fixed the Card _stuff_ to
+    ```
+    column-name: To-Do
+    ```
+
+commit 7fa8a3d96fc08948c591d46822d2be55eb296ed7
+Author: Daniel McCarney <daniel@binaryparadox.net>
+Date:   Fri Aug 4 04:58:37 2023 -0400
+
+    ci: update test workflow triggers to include PRs. (#1818)
+    
+    This commit updates the `test.yml` GitHub workflow's triggers to include
+    `pull_request` in addition to `push`. This will ensure that when a pull
+    request is opened the CI tasks are run and check statuses added to the
+    PR.
+    
+    Without an update to the repository settings to enable branch protection
+    rules these will not be _blocking_ checks.
+
+commit 63cbc63d470d7b52c35266aa96c4c98c96ec499c
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Thu Aug 3 03:01:25 2023 -0700
+
+    util: gTLD data autopull updates for 2023-08-02T15:11:59 UTC (#1816)
+    
+    Co-authored-by: GitHub <noreply@github.com>
+
+commit 46fd989374ae9be670d998cb6d9dccf3b0985a9f
+Author: Jothan Frakes <jothan@gmail.com>
+Date:   Wed Aug 2 18:48:40 2023 -0700
+
+    unbroke URL assembly
+    
+    fubar'd string assemble; will get another set of eyes and use pull req next time
+
+commit d751aa53683cb2dbfa3f6c1cd6396d88c937dd90
+Author: Jothan Frakes <jothan@gmail.com>
+Date:   Wed Aug 2 18:42:35 2023 -0700
+
+    Add IANA DB URL instead of blanking out contract date
+    
+    This aligns more with our formatting elsewhere in the PSL and matches the guidelines better
+
+commit c6d22c84522a47a2f9171e43b5bead4c2f9f2ba8
+Author: Daniel McCarney <daniel@binaryparadox.net>
+Date:   Wed Aug 2 10:29:55 2023 -0400
+
+    tools: skip contract date rendering, small CI fixups. (#1812)
+    
+    Fixes #1806
+
+commit 4e6c53ca9c667b74a7d332d1512d2c362af91516
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Fri Jul 28 14:50:43 2023 -0700
+
+    util: gTLD data autopull updates for 2023-07-28T15:13:22 UTC (#1805)
+    
+    Co-authored-by: GitHub <noreply@github.com>
+
+commit f95b832e23abb49dd5d54a3272f710247bcb13d9
+Author: tuchinsun <vokchut@gmail.com>
+Date:   Mon Jul 17 21:40:12 2023 +0300
+
+    Domains are removed `hidora.com`, `users.scale.virtualcloud.com.br`, `clicketcloud.com` (#1598)
+    
+    * Domains are removed due to end of service
+    
+    * more Jelastic public domains are added
+    
+    * Revert "more Jelastic public domains are added"
+    
+    This reverts commit 01541c8a069435094ea211674eb3a0df4b7ac256.
+    
+    * more Jelastic public domains are added
+    
+    * Jelastic public domains are remove
+    
+    ---------
+    
+    Co-authored-by: Ihor Kolodyuk <ik@jelastic.com>
+    Co-authored-by: maximus13th <maxym.pariy@gmail.com>
+    Co-authored-by: Dmitry Khimich <dmitry.khimich@jelastic.com>
+
+commit db1a322bf4aa95664b2c489c406be3501746542d
+Author: Lyrisbee <Lyrisbee@users.noreply.github.com>
+Date:   Tue Jul 18 02:32:40 2023 +0800
+
+    Add storipress.app (#1583)
+    
+    @Lyrisbee MERGING
+
+commit 311a23a28743c79e593091fcced3fae83399bb8d
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sun Jul 9 01:28:48 2023 -0700
+
+    util: gTLD data autopull updates for 2023-07-08T15:13:17 UTC (#1796)
+    
+    Co-authored-by: GitHub <noreply@github.com>
+
+commit 195aa1c180a5ca8c06c1ce485c75693b635c1ebd
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sat Jul 1 08:25:42 2023 -0700
+
+    util: gTLD data autopull updates for 2023-07-01T15:13:05 UTC (#1791)
+    
+    Co-authored-by: GitHub <noreply@github.com>
+
+commit 1238b5bfedef7a74acf7840c6e702d2203fb6e22
+Author: Ian Williams <iwillamz@amazon.com>
+Date:   Fri Jun 30 12:12:32 2023 -0700
+
+    AWS Submissions to the Public Suffix List - Q1 2023 (#1600)
+    
+    * Add rules for Analytics on AWS
+    
+    * Add rules for AWS Cloud9
+    
+    ---------
+    
+    Co-authored-by: Craig Pearce <cwp@amazon.com>
+
+commit d2d3e2e36a8f2b68c4f09e8c87f4f1d685cbf5e7
+Author: Tri Nguyen <nguyenvantri.10dt3@gmail.com>
+Date:   Sat Jun 17 04:36:06 2023 +0700
+
+    Add 63 geographical domains for .vn ccTLD (#1776)
+    
+    * Add 63 geographical domains for .vn ccTLD
+    
+    Add 63 geographical domains for .vn ccTLD
     
     * Update public_suffix_list.dat
     
-    sorting issue fixed
-
-commit e97f489125025a32ad1a7b8a01d1474cab3f9a48
-Author: Lei Wang <wonlay@gmail.com>
-Date:   Sat Nov 6 21:27:04 2021 -0700
-
-    Remove: gb.com (#1467)
-
-commit 22a461ea3f7b5563f6cef218f9ec9cd19c616d33
-Author: TLD Update Robot <47792085+tld-update-bot@users.noreply.github.com>
-Date:   Thu Oct 28 15:51:22 2021 -0400
-
-    util: gTLD data autopull updates for 2021-10-28T15:13:34 UTC (#1464)
-    
-    Co-authored-by: GitHub <noreply@github.com>
-
-commit 3d5e354422b9edc69f132b048a587c8bd45018df
-Author: jcolon-ellucian <87881742+jcolon-ellucian@users.noreply.github.com>
-Date:   Tue Oct 26 11:46:54 2021 -0400
-
-    Remove elluciancrm domains (#1443)
-    
-    * Remove Ellucian domains
-
-commit ff4958dd9cb7197d435ceadd053f9dc8da7852dc
-Author: Ryan Sleevi <ryan.sleevi@gmail.com>
-Date:   Sat Oct 16 12:32:08 2021 -0400
-
-    Fix sorting of One.com domains
-
-commit cfafdebb5c4d216b2d1415bb4a372ab6455f19b2
-Author: Alexander <selivandex@gmail.com>
-Date:   Sat Oct 16 19:27:20 2021 +0300
-
-    Add siiites.com (#1416)
-
-commit 95e0b14101dc0f7477c28e9d2aecc959f22473ce
-Author: Dave Anderson <dave@natulte.net>
-Date:   Sat Oct 16 09:11:24 2021 -0700
-
-    Add ts.net and beta.tailscale.net domains. (#1453)
-
-commit 20a9b4e9e3232991ba72ae42bc94f1b3ffdb75b5
-Author: Jothan Frakes <jothan@gmail.com>
-Date:   Thu Oct 14 09:31:22 2021 -0700
-
-    Revise Sorting for Cape Verde (.cv)
-    
-    This fixes sorting of #1456
-
-commit 921d91f13fd582a7e830c7386f7a58608e34f02b
-Author: EduardoATpt <66691939+EduardoATpt@users.noreply.github.com>
-Date:   Thu Oct 14 17:29:08 2021 +0100
-
-    Update public_suffix_list.dat (#1456)
-    
-    Minor updates on  the references websites for .PT and .GW.
-    Update .CV SLD.
-
-commit 0df64ae56a60dca05a1b088af4922eea76e30b5b
-Author: Shahar Talmi <shahar@wix.com>
-Date:   Tue Oct 12 14:25:54 2021 +0300
-
-    updated email address (#1450)
-
-commit ff713fe9b67c46a36ca51f108415abfa5ef64596
-Author: TLD Update Robot <47792085+tld-update-bot@users.noreply.github.com>
-Date:   Fri Oct 8 11:25:53 2021 -0400
-
-    util: gTLD data autopull updates for 2021-10-08T15:12:46 UTC (#1451)
-    
-    Co-authored-by: GitHub <noreply@github.com>
-
-commit 5f5682bcfdc0cac36cf7cd61bd2fe7e8d0f8381f
-Author: steven jacobs <stjacobs@fastmail.fm>
-Date:   Fri Oct 8 03:35:32 2021 -0400
-
-    add ip.linodeusercontent.com (#1448)
-    
-    Well formatted; thorough, and thoughtful.  Appreciate the attention to detail and pledge to clean up / tighten on the filesize modesty for your entries.  Expediting
-
-commit c9ae7763de9e57a4262ab818a4511d8c5e0d7257
-Author: Lenny <lennybakkalian@users.noreply.github.com>
-Date:   Fri Oct 8 09:34:21 2021 +0200
-
-    Adding upli.io (#1446)
-    
-    * Adding upli.io
-    
-    * reorder Upli entry
-
-commit e43dd3696d975df071e42de9d8de364c27f9ac6b
-Author: Franky <ChristianFranke@users.noreply.github.com>
-Date:   Fri Oct 8 09:02:28 2021 +0200
-
-    added tickets.io (#1429)
-
-commit 29956a79b22e6e48d74d71e1cebba8601c56ec5b
-Author: TLD Update Robot <47792085+tld-update-bot@users.noreply.github.com>
-Date:   Thu Oct 7 15:49:05 2021 -0400
-
-    util: gTLD data autopull updates for 2021-10-07T15:11:34 UTC (#1449)
-    
-    Co-authored-by: GitHub <noreply@github.com>
-
-commit 2ec5699c6d3a2fc97d7cbdeab6eb034a539ce722
-Author: TLD Update Robot <47792085+tld-update-bot@users.noreply.github.com>
-Date:   Wed Oct 6 11:27:26 2021 -0400
-
-    util: gTLD data autopull updates for 2021-10-06T15:12:57 UTC (#1447)
-    
-    Co-authored-by: GitHub <noreply@github.com>
-
-commit a5b046d98c074927440b3f3abd4f8f1a5ab633d1
-Author: Jothan Frakes <jothan@gmail.com>
-Date:   Wed Oct 6 00:08:21 2021 -0700
-
-    Update Pull Request Template to add clarity
-    
-    Increased comment notes to help submitting parties understand what minimum rationale and org descriptions should be
-
-commit 21ed03577eb3cf138d67fe6131a5adc6b43298e3
-Author: TLD Update Robot <47792085+tld-update-bot@users.noreply.github.com>
-Date:   Fri Oct 1 11:30:09 2021 -0400
-
-    util: gTLD data autopull updates for 2021-10-01T15:13:10 UTC (#1445)
-    
-    Co-authored-by: GitHub <noreply@github.com>
-
-commit 8f416f4dac0411677c49242048ac8fe8914d8d18
-Author: Mathilde <mathilde@clic2000.fr>
-Date:   Wed Sep 29 06:18:17 2021 +0200
-
-    Remove Clic2000 entries (#1434)
-
-commit 53dcf41d5d8e724f66c78ff727ccb2cdc4e16186
-Author: Robin H. Johnson <rjohnson@digitalocean.com>
-Date:   Tue Sep 28 21:16:43 2021 -0700
-
-    ondigitalocean.app: update comment for DigitalOcean App Platform (#1431)
-    
-    - Update title to reflect product name
-    - Update email to dedicated mailing list for PSL usage
-    
-    Signed-off-by: Robin H. Johnson <rjohnson@digitalocean.com>
-
-commit 76cb4b3630c55b161c119b2201c2d23f5f56f623
-Author: Deepak Tiwari <42840642+DeepakTiwari84@users.noreply.github.com>
-Date:   Wed Sep 29 09:43:35 2021 +0530
-
-    add prequalifyme.today to private section (#1311)
+    Added 2 blank lines
     
     * Update public_suffix_list.dat
     
-    added equalifyme.today
-    
-    * Added prequalifyme.today
-    
-    updated domain name
-    
-    * add prequalifyme.today to PSL
-    
-    Changed the domain position according to alphabetical order
-    
-    * add prequalifyme.today
-    
-    updated private domain list to add prequalifyme.today in alphabetical order
-    
-    * Corrected alphabetic order for prequalifyme.today
-    
-    Corrected alphabetic order for prequalifyme.today in the private section of PSL.
-    
-    * removed domain
-    
-    * Corrected domain prequalifyme.today in alphabetical order.
-    
-    * removed extra blank lines
-    
-    * removed extra blank lines
-    
-    * removed extra blank lines
-    
-    * added newline at the end of file
-    
-    * removed domain
-    
-    * added prequalifyme.today domain
+    Adding the URL for the list of domains .vn ccTLD
 
-commit d733c0416f88720fc85effcc8b17a3361df23873
-Author: TLD Update Robot <47792085+tld-update-bot@users.noreply.github.com>
-Date:   Tue Sep 28 13:14:17 2021 -0400
+commit c136211c2b1a690e57f4f0ecb3ff9b96870069a0
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Fri Jun 16 10:26:53 2023 -0700
 
-    util: gTLD data autopull updates for 2021-09-28T15:12:52 UTC (#1438)
+    util: gTLD data autopull updates for 2023-06-16T15:12:40 UTC (#1778)
     
     Co-authored-by: GitHub <noreply@github.com>
 
-commit 95209c60461937df9618dd1874d6e99483b322af
-Author: terjanq <terjanq@users.noreply.github.com>
-Date:   Tue Sep 28 17:10:25 2021 +0200
+commit 59f04b1bf98631d381fff1bf0c1501fc5e44321c
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Wed Jun 14 17:05:51 2023 -0400
 
-    Add *.usercontent.goog (#1417)
+    util: gTLD data autopull updates for 2023-06-14T15:13:06 UTC (#1777)
     
-    Add *.usercontent.goog to the Google domains
+    Co-authored-by: GitHub <noreply@github.com>
 
-commit e3fc753321261953b3ab9fe335ddfe649f7ebdf9
-Author: Robin H. Johnson <robbat2@orbis-terrarum.net>
-Date:   Wed Sep 22 01:23:47 2021 -0700
+commit 9f978b0c5f7bff926d9e33336861a70512af253f
+Author: Lê Quang Lâm <badaimweeb@protonmail.com>
+Date:   Wed Jun 14 00:21:17 2023 +0700
 
-    Add digitaloceanspaces.com & regional subdomains (#1421)
+    Add `{id,io,ai}.vn` for .vn ccTLD in ICANN Section (#1771)
     
-    * Add digitaloceanspaces.com & regional subdomains
+    * Add `{id,io,ai}.vn` for .vn ccTLD in ICANN Section
     
-    Add all regions of DigitalOcean Spaces to the PSL, to deliniate the
-    names which can be registered by users. This mirrors the inclusion of
-    Amazon S3.
-    
-    Please note the contact email address goes to a superset of the domain
-    registration group, suitable for reaching all critical points of contact
-    regarding DigitalOcean's PSL entries.
-    
-    Signed-off-by: Robin H. Johnson <rjohnson@digitalocean.com>
-    
-    * digitaloceanspaces.com: collapse to single wildcard only
-    
-    Per discussions [1] w/ maintainer and the PSL problems document [2].
-    
-    [1] https://github.com/publicsuffix/list/pull/1421#issuecomment-920545418
-    [2] https://github.com/sleevi/psl-problems
-    
-    Signed-off-by: Robin H. Johnson <rjohnson@digitalocean.com>
-
-commit 1bdac331266722289f27d3509a31aec4a102b73f
-Author: smoussa2021 <90328956+smoussa2021@users.noreply.github.com>
-Date:   Tue Sep 21 16:59:01 2021 +0100
-
-    Update public_suffix_list.dat (#1426)
-    
-    Listed sub-extensions are passed to domains under .TN.
-    DEFENSE.TN, RNU.TN , RNRT.TN, TUREN.TN, RNS.TN, EDUNET.TN and AGRINET.TN
-    
-    They are no longer sub-extensions under which registrants can register domains.
-    
-    Decision of the national telecommunication regulator, INTT:
-    http://www.intt.tn/upload/txts/fr/decision_du_college_de_l'int_n11-2020_du_23_dec_2020.pdf
-
-commit 428efccbe95f13dc6d6399bef8aa274bdb588e86
-Author: Leandro Britez <britinx@hotmail.com>
-Date:   Thu Sep 9 18:01:14 2021 -0300
-
-    Adding new .ar SLDs and official nic.ar URL correction (#1414)
-
-commit 20748142a551d2c6d6b95a47c0216608080e6e71
-Author: Andrew Farries <andrew-farries@users.noreply.github.com>
-Date:   Thu Sep 9 02:22:19 2021 +0100
-
-    Add instances.spawn.cc (#1411)
-
-commit 2533d032871e1ef1f410fc0754b848d4587c8021
-Author: Tocknicsu <Tocknicsu@users.noreply.github.com>
-Date:   Fri Sep 3 15:46:30 2021 +0800
-
-    Remove: nctu.me (#1407)
-    
-    @Tocknicsu  Thank you for cleaning up after yourself - the world needs more people like you.  Well, the PSL definitely does.
-
-commit 6327e96f219f05abc3c1d5a039c47e73a79db854
-Author: Jothan Frakes <jothan@gmail.com>
-Date:   Thu Sep 2 15:11:39 2021 -0700
-
-    Roll back diher.solutions PR #1393 (#1406)
-    
-    * Roll back diher.solutions PR #1393
-    
-    foo.bar and *.foo.bar can't both be added, and I let #1393 through, where the linter typically catches and fails them.
-    @pereceh you must re-sumbit and choose only one of each, please reference #1393 in the new PR
-    
-    // Diher Solutions : https://diher.solutions
-    // Submitted by Didi Hermawan <mail@diher.solutions>
-    rss.my.id
-    *.rss.my.id
-    diher.solutions
-    *.diher.solutions
-    
-    * Pull out rss.id.my and diher.solutions
-
-commit 15ae051dd5e7cd1b5c148639001597b95c029d33
-Author: Noah Taheij <noah@taheij.nl>
-Date:   Thu Sep 2 11:41:07 2021 +0200
-
-    Update public_suffix_list.dat (#1390)
+    * Update sorting for .vn ccTLD
